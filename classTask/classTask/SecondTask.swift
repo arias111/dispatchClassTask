@@ -40,6 +40,9 @@ func result() {
 	
 	let instance = SomeThirdClass()
 	instance.someMethod() // virtual
+	
+	let child = ChildClass()
+	child.method2() // virtual
 }
 
 
