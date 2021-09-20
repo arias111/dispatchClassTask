@@ -35,7 +35,7 @@ class SomeThirdClass {
 }
 
 func result() {
-	let foo: SomeProtocol = Foo() as! SomeProtocol
+	let foo: SecondProtocol = Foo() as! SecondProtocol
 	foo.someFunc() //witness table
 	
 	let instance = SomeThirdClass()
